@@ -14,9 +14,9 @@
 #             a[j], a[j+1] = a[j+1], a[j]
 # print(a)
 
-def say_hello(name):
-    return "Hello, " + name + "!"
-say_hello("Alice")
+# def say_hello(name):
+#     return "Hello, " + name + "!"
+# say_hello("Alice")
 
 # i solved this with my mind
 # def square_sum(numbers):
@@ -26,3 +26,15 @@ say_hello("Alice")
 #         new = i**2
 #         sum += new
 #     return sum
+
+
+
+def number(s):
+    result1 = []
+    result2 = []
+    if s==0:
+        result1.append(s)
+    else:
+        result2.append(s)
+    return result1+result2
+s1 = number([1,2,4,1,5,6,0])

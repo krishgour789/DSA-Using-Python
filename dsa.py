@@ -29,12 +29,12 @@
 
 
 
-def number(s):
-    result1 = []
-    result2 = []
-    if s==0:
-        result1.append(s)
-    else:
-        result2.append(s)
-    return result1+result2
-s1 = number([1,2,4,1,5,6,0])
+# def number(s):
+#     result1 = []
+#     result2 = []
+#     if s==0:
+#         result1.append(s)
+#     else:
+#         result2.append(s)
+#     return result1+result2
+# s1 = number([1,2,4,1,5,6,0])

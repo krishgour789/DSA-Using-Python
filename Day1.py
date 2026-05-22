@@ -18,6 +18,24 @@
 #     prev1 = newfibo
 
 
-my_array = [8,3,5,4,]
-minVal = my_array[0]
-print(minVal)
+# my_array = [8,3,5,4,]
+# minVal = my_array[0]
+# print(minVal)
+
+# num = int(input('enter a number :'))
+# while num!=10:
+#     print(num,num*num)
+#     num=int(input("enter a number"))
+
+# count= 0
+# while count<10:
+#     print(count,count*count,count*count*count)
+#     count+=1
+
+s = "Mumbai"
+lst = ['desert','to','krish','lose']
+tpl = (12,2,3,34,53)
+i = 0
+while i<len(lst):
+    print(i,s[i],lst[i],tpl[i])
+    i+=1
